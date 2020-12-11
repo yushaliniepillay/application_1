@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {Nav, Navbar, Button, Form, FormControl} from 'react-bootstrap';
 
 const NavBar = () => {
