@@ -2,10 +2,11 @@
 import './App.css';
 import Home from './component/Home';
 
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Home />
       </header>
