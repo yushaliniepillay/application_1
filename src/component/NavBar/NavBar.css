@@ -20,10 +20,11 @@
 }
 
 .carousel{
-    height: 400pt;
+    height: fit-content;
 }
 
 .button-mv{
     text-align: left;
     padding-left: 80pt;
+    padding-top: 50pt;
 }

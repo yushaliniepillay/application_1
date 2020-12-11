@@ -6,33 +6,33 @@ import { Carousel, Button } from 'react-bootstrap';
 
 const Home = () => {
 
-
+    const url = 'https://cdn.filestackcontent.com/XYrHCaFGRSaq0EPKY1S6';
+    
     return (
         <div>
             <NavBarSmall />
             <NavBar />
-            <br></br>
             <div>
                 <Carousel className="carousel">
                     <Carousel.Item interval={1000}>
                         <img
                             className="d-block w-100"
                             // src="holder.js/800x400?text=First slide&bg=373940"
-                            src="image1.png"
+                            src={url}
                             alt="First slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item interval={500}>
                         <img
                             className="d-block w-100"
-                            src="holder.js/800x400?text=Second slide&bg=282c34"
+                            src={url}
                             alt="second slide"
                         />
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="holder.js/800x400?text=Third slide&bg=20232a"
+                            src={url}
                             alt="Third slide"
                         />
                     </Carousel.Item>
